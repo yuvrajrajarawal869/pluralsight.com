@@ -1,0 +1,280 @@
+#ashMain{
+    width:100%;
+    height:1400px;
+  background-color: black;
+   /* border:2px solid red; */
+}
+#skyth{
+    width:90%;
+    height:80px;
+    /* border:1px solid blue; */
+    padding:50px;
+    margin-left: 50px;
+}
+#sky{
+    width:70%;
+    height:20px;
+    /* border:1px solid red; */
+    padding:5px;
+    text-align: center;
+  margin-left: 90px;
+}
+#skyimg{
+    height:20px;
+}
+#thou{
+   height:100px;
+   width:50%; 
+   /* border:1px solid red; */
+   margin-left: 180px;
+   color: white;
+   text-align: center;
+   /* padding:5px; */
+   margin-top: -10px;
+}
+/* <-----SEARCH-button--------------------------------------------------------------> */
+#ashSideRight{
+width: 100%;
+height:500px;
+border:1px pink;
+display: flex;
+margin-top: 20px;
+
+
+
+
+
+}
+#ashSearch{
+    width:80%;
+    height:50px;
+    color: white;
+    /* padding: 10px; */
+    margin-left:28px;
+    /* border:1px solid red; */
+    /* display:flex; */
+}
+.ashsea{
+    width:100%;
+    height:30px;
+    /* border:1px solid red; */
+    margin-left:20px;
+    display: flex
+}
+#sear{
+    width:73%;
+    height:30px;
+ 
+   
+    /* border:1px solid red; */
+   
+    color:white;
+    background-color: rgb(63, 57, 57);
+    /* margin-top: 5px; */
+    /* display:flex; */
+    }
+   #bi-search{
+        height:35px;
+        /* color: white; */
+    background-color: rgb(63, 57, 57);
+    border:0px;
+      
+       
+    }
+    #cars{
+        color: white;
+    border:0px white;
+        width:130px;
+        height:40px;
+        margin-left: 50px;
+        background-color:rgb(19, 17, 17) ;
+        text-align: center;
+        
+    }
+    /* <------SIDE BAR---------------------------------------------------> */
+#ashSide{
+    height:500px;
+    width:30%;
+    border:1px blue;
+    margin-left: 30px;
+    color:white;
+    /* display: flex; */
+}
+
+                  .MultiCheckBox {
+            border:1px solid #e2e2e2;
+            padding: 5px;
+            /* border-radius:4px; */
+            cursor:pointer;
+            height:40px;
+            /* margin-left: ; */
+        }
+
+        .MultiCheckBox .k-icon{ 
+            font-size: 15px;
+            float: right;
+            font-weight: bolder;
+            margin-top: -7px;
+            height: 10px;
+            width: 14px;
+            color:#787878;
+            border-radius: 50px;
+        } 
+
+        .MultiCheckBoxDetail {
+            display:none;
+            position:absolute;
+            border:1px solid #e2e2e2;
+            overflow-y:hidden;
+        }
+
+        .MultiCheckBoxDetailBody {
+            overflow-y:scroll;
+        }
+
+            .MultiCheckBoxDetail .cont  {
+                clear:both;
+                overflow: hidden;
+                padding: 2px;
+            }
+
+            .MultiCheckBoxDetail .cont:hover  {
+                background-color:#cfcfcf;
+            }
+
+            .MultiCheckBoxDetailBody > div > div {
+                float:left;
+            }
+
+        .MultiCheckBoxDetail>div>div:nth-child(1) {
+        
+        }
+
+        .MultiCheckBoxDetailHeader {
+            overflow:hidden;
+            position:relative;
+            height: 28px;
+            background-color:#3d3d3d;
+        }
+
+            .MultiCheckBoxDetailHeader>input {
+                position: absolute;
+                top: 4px;
+                left: 3px;
+            }
+
+            .MultiCheckBoxDetailHeader>div {
+                position: absolute;
+                top: 5px;
+                left: 24px;
+                color:#fff;
+            }  
+              /* /<-----------------------------Right Side------------------------>*  */ 
+
+    #ashRight{
+        width:50%;
+        height:1030px;
+        /* border:1px solid red; */
+    }
+    .rigthA{
+        width:90%;
+        height:100px;
+        border:1.8px  solid rgb(12, 12, 12);
+        color: white;
+    }
+    .para1{
+       margin-top: -17px; 
+    }
+    #rightB{
+        width:100%;
+        height:20px;
+        /* border:1px solid red; */
+        margin-top: -10px;
+        display:flex;
+        gap: 5px;
+    }
+    .paraA{
+        width:80px;
+        height:17px;
+        background-color:rgb(1, 167, 233);
+        font-size: 11px;
+        text-align: center;
+        border-radius: 4px;
+        padding: 2px;
+
+
+    }
+    .para3{
+        margin-top: -23px;
+        margin-left: 10px;
+
+    }
+    .para4{
+        margin-left: 10px;
+        text-align: center;
+    }
+    .checked {
+  color: orange;
+  
+}
+.para5{
+    color: white;
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+}
+.para6{
+    margin-left: 30px;
+}
+/* <-----------------------FOOTER-PART-------------------------------------------------> */
+#ashFooter{
+    width:100%;
+    height:800px;
+    border :1px olid red;
+   /* margin-top: -500px; */
+    display: flex;
+    background-color: black;
+
+}
+.footerA{
+    width:50%;
+    height:500px;
+    /* border:3px solid rgb(43, 255, 0); */
+    color:white;
+margin-left: 10px;
+   
+}
+#footer1{
+    margin-top: 60px;
+    width:300px;
+    height:25px;
+    /* border:1px solid red; */
+}
+/*End- Footer--------------------------------------------------------- */
+#footer{
+    background-color: #222222;
+    color: white;
+}
+#footerInfo{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(1,1fr);
+    padding-top: 50px;
+    padding-left: 150px;
+}
+#footerInfo h5{
+    margin-bottom: 50px;
+}
+#footerInfo p{
+    color: #7c7c7d;
+}
+#english img{
+    height: 30px;
+    width: 30px;
+}
+#english{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 70px;
+    gap: 20px;
+}
