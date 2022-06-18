@@ -1,0 +1,383 @@
+#topDiv{
+    height: 550px;
+    width: 100%;
+    background-color: black;
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,1fr); */
+    /* display: flex; */
+}
+#middleDiv{
+    height: 550px;
+    width: 38%;
+    background-color:black;
+    margin-left: 470px;
+}
+.img1{
+    height: 30px;
+    width: 120px;
+    margin-left: 20px;
+    
+}
+#logoNew{
+    margin-left: 400px;
+    position: relative;
+    margin-top: -70px;
+    
+}
+#h6text{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 60px;
+    color: rgb(163, 161, 161);
+    
+}
+#h1text{
+    font-size: 36px;
+    text-align: center;
+    padding-top: 180px;
+    color: white;
+}
+#ptext{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+#btnTop{
+    text-align: center;
+    
+}
+#btn1{
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: orangered;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+#btn2{
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+    margin-left: 40px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+#lineDiv{
+    margin: 0px auto;
+    width: 0%;
+    height: 150px;
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient( to bottom, #EC008C, #F15B2A, rgba(0, 0, 0, 0) ) 1 100%;
+}
+#lineDiv2{
+    height: 150px;
+    width: 100%;
+    background-color: black;
+}
+#topicsDiv{
+    height: 600px;
+    width: 100%;
+    background-color:black;
+    /* text-align: center; */
+    padding-top: 50px;
+    
+}
+#topicsDiv{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    color: white;
+    margin-left: 150px;
+    
+}
+#topicsDiv img{
+    height: 100px;
+    width: 100px;
+    /* margin-left: 300px; */
+    /* background-color: #EC008C; */
+    margin-left: 200px;
+}
+#topicsHead h3{
+    font-size: 28px;
+    color: white;
+}
+#topicsHead h6{
+    font-size: 15px;
+    color: #EC008C;
+    
+}
+#topicsHead{
+    background-color: rgb(0, 0, 0);
+    
+    
+}
+#topicsDiv1{
+    height: 180px;
+    width: 450px;
+    background-color: #222222;
+    border-radius: 10px;
+    display: flex;
+    cursor: pointer;
+}
+#path{
+    font-size: 13px;
+    color: #EC008C;
+    
+
+}
+#js{
+    font-size: 22px;
+    margin-top: 10px;
+}
+#course{
+    font-size: 17px;
+    margin-top: 10px;
+}
+#takeLook{
+    font-size: 16px;
+    margin-top: 20px;
+}
+#topicsText{
+    /* padding-left: 20px; */
+    margin-bottom: 100px;
+    width: 150px;
+    /* background-color: #ecd000; */
+    margin-left: 30px;
+    margin-top: 30px;
+
+}
+#HeadText{
+    
+    width: 30%;
+    margin-left: 150px;
+    margin-top: -35px;
+    padding-top: 50px;
+}
+
+/* feteacher------------------------------------------------------------------------- */
+#feteacher{
+    height: 1250px;
+    width: 100%;
+    background-color:  #181818;
+   
+}
+#feteacherAdd{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+    /* background-color: #F15B2A; */
+    /* height: 500px; */
+    margin-left: 100px;
+    color: white;
+    width: 80%;
+    
+}
+#feteacherAdd2 img{
+    height: 500px;
+    width: 650px;
+}
+#feteacherAdd1{
+    height: 500px;
+    width: 650px;
+    background-color: #222222;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+} 
+#feteacherAdd1 img{
+    margin-top: 70px;
+    margin-left: 20px;
+}
+#feteacherAdd1 h3{
+    font-size: 38px;
+    margin-left: 20px;
+}
+#feteacherAdd1 p{
+    font-size: 17px;
+    margin-left: 20px;
+    line-height: 30px;
+    margin-right: 20px;
+}
+#feteacherText{
+    margin-top: -20px;
+    width: 40%;
+    margin-left: 100px;
+    padding-top: 20px;
+}
+#feteacherText h6{
+    font-size: 15px;
+    color: #EC008C;
+}
+#feteacherText h3{
+    font-size: 28px;
+    color: white;
+}
+#feteacherText2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,1fr);
+    color: white;
+    width: 80%;
+    height: 400px;
+    
+    gap: 100px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+#feteacherText2 h3{
+    font-size: 28px;
+    margin-left: 20px;
+}
+#feteacherText2 p{
+    font-size: 17px;
+    line-height: 25px;
+    margin-left: 20px;
+}
+#feteacherText2 img{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#A{
+    border-radius: 20px;
+    background-color: #222222;
+}
+#discover{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,1fr);
+    margin-left: 0px;
+    background-color: black;
+    color: white;
+    height: 550px;
+}
+#discover1{
+    height: 300px;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 130px;
+
+}
+#discover1 img{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+}
+#discoverText{
+   
+    color: white;
+    background-color: black;
+    height: 40px;
+    margin-top: -40px;
+    
+}
+#discover1 h6{
+    font-size: 15px;
+    color: #ffba0e;
+}
+#discover1 h3{
+    font-size: 26px;
+    
+}
+#discoverText h3{
+    margin-left: 20px;
+    font-size: 26px;
+}
+#discoverText h6{
+    margin-left: 20px;
+    color: #EC008C;
+    font-size: 15px;
+    padding-top: 50px;
+}
+#winAdd img{
+    height: 500px;
+    width: 100%;
+}
+#share{
+    height: 500px;
+    background-color: black;
+    margin-top: -5px;
+}
+#follow{
+    padding-top: 30px;
+    text-align: center;
+}
+#follow h6{
+    font-size: 15px;
+    color: #EC008C;
+}
+#follow h2{
+    font-size: 30px;
+    color: white;
+}
+#one img{
+    height: 500px;
+    width: 100%;
+}
+#insight{
+    height: 200PX;
+    color: white;
+    background-color: black;
+    display: flex;
+    margin-top: -10px;
+    justify-content: space-around;
+    padding-top: 85px;
+}
+#insight button{
+    background-color: #F15B2A;
+    font-size: 20px;
+    margin-bottom: 100px;
+    padding: 0px 50px 0px 50px;
+    cursor: pointer;
+}
+#insight h1{
+    font-size: 50px;
+}
+/* #leftDiv img{
+    height: 300px;
+    width: 200px;
+} */
+
+/* footer------------------------------------------------------------------------ */
+#footer{
+    background-color: #222222;
+    color: white;
+}
+#footerInfo{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(1,1fr);
+    padding-top: 50px;
+    padding-left: 150px;
+}
+#footerInfo h5{
+    margin-bottom: 50px;
+}
+#footerInfo p{
+    color: #7c7c7d;
+}
+#english img{
+    height: 30px;
+    width: 30px;
+}
+#english{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 70px;
+    gap: 20px;
+}
+#slide{
+    margin-left: 200px;
+}
+
+
+
+
+
+
+
