@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pick A Plan</title>
+    <link rel="stylesheet" href="pickaplan.css">
+    <script src="https://kit.fontawesome.com/7f9033071d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="container">
+        <h4 id="p_p">PLANS & PRICING</h4>
+        <h1 id="des">Giving you the skills and
+            insights to build better
+        </h1>
+        <div id="box">
+            <div id="card1">
+                <div class="img">
+                    <img src="https://www.pluralsight.com/content/dam/pluralsight2/product/v2/logos/logo-skills.png" alt="skills">
+                </div>
+                <h4 class="skill_des">See where your skills stand, master the latest technologies and show off your expertise.</h4>
+                <div class="plan" onclick="plan()">Pick a Plan</div>
+
+                <h4 class="learn_more">Learn more about Skills</h4>
+                <i class="fa-thin fa-greater-than"></i>
+            </div>
+            <div id="card2">
+                <div class="img">
+                    <img src="https://www.pluralsight.com/content/dam/pluralsight2/product/v2/logos/logo-flow.png" alt="flow">
+                </div>
+                <h4 class="skill_des" style="font-size: 17px;">Maximize productivity and accelerate product release cycles.</h4>
+                <div class="plan" onclick="plan()" id="flow_plan">Pick a Plan</div>
+                <h4 class="learn_more">Learn more about Flow</h4>
+                <i class="fa-thin fa-greater-than"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+   
+    function plan()
+    {
+        window.location.href="selectaplan.html"
+    }
+
+</script>

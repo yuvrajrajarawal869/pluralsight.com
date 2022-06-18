@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="selectaplan.css">
+</head>
+<body>
+    <div id="skills">
+        <img src="https://www.pluralsight.com/content/dam/pluralsight2/product/v2/logos/logo-skills.png" alt="skills">
+    </div>
+    <h4 id="p_p">Plans & pricing</h4>
+
+    
+    
+    <div id="div">
+        <div id="mon">
+           Monthly
+        </div>
+        
+        <div id="toggle">
+            
+            <input type="checkbox" id="toggle-btn-1"  onchange='handleChange(this);'>
+             <label for="toggle-btn-1" id="label"></label>
+        </div>
+
+        <div id="year">
+            Yearly
+        </div>
+     
+  
+    </div>
+
+    <h5 id="disc">(Save At least 31% )</h5>
+    <div id="hurry"> Best Oppertunity</div>
+
+
+    <div id="card">
+        
+        <div id="card1"></div>
+
+        
+        
+    </div>
+
+      
+    
+
+
+</body>
+</html>
+
+<script>
+
+    let monthly_data1=[
+    {
+        category:"Standerd",
+        price:"2200",
+        Description:"Core course library,paths and skill assessments."
+    }
+];
+
+
+let monthly_data2=[
+    {
+        category:"Premium",
+        price:"3449",
+        Description:"Entire library of core and expanded courses, exams, projects and interactive courses."
+    }
+];
+
+
+
+function getdata(data)
+        {
+            let cont=document.getElementById("card1");
+            cont.innerHTML=null
+            data.forEach(element => {
+                console.log(element)
+                let h4=document.createElement("h4")
+                h4.innerText=element.category;
+
+                let p=document.createElement("p")
+                p.innerText=`₹${element.price}`
+
+                let h5=document.createElement("h5")
+                h5.innerText="Per Month";
+
+                let h6=document.createElement("h3")
+                h6.innerText=element.Description;
+
+
+                let div1=document.createElement("div")
+                div1.innerText="START WITH STANDERD"
+                div1.setAttribute("id","set")
+
+
+                let p1=document.createElement("h6")
+                p1.innerText="or start a ";
+                p1.setAttribute("id","p1")
+
+                let span=document.createElement("span")
+                span.innerText="FREE trial";
+                p1.append(span)
+
+
+
+                let div=document.createElement("div");
+                div.setAttribute("class","standerd")
+                div.append(h4,p,h5,h6,div1,p1)
+                cont.append(div)
+            })
+
+        }
+
+       
+
+        
+
+
+function handleChange(checkbox) {
+    if(checkbox.checked == true){
+        console.log("checked?")
+
+        function getdata(data)
+        {
+            let cont=document.getElementById("card1");
+            cont.innerHTML=null
+            data.forEach(element => {
+                console.log(element)
+                let h4=document.createElement("h4")
+                h4.innerText=element.category;
+
+                let p=document.createElement("p")
+                p.innerText=`₹${element.price}`
+
+                let h5=document.createElement("h5")
+                h5.innerText="Per Year";
+
+                let h6=document.createElement("h3")
+                h6.innerText=element.Description;
+
+
+                let div1=document.createElement("div")
+                div1.innerText="START WITH PREMIUM"
+                div1.setAttribute("id","set")
+
+
+                let p1=document.createElement("h6")
+                p1.innerText="or start a ";
+                p1.setAttribute("id","p1")
+
+                let span=document.createElement("span")
+                span.innerText="FREE trial";
+                p1.append(span)
+
+                let div=document.createElement("div");
+                div.setAttribute("class","standerd")
+                div.append(h4,p,h5,h6,div1,p1)
+                cont.append(div)
+            })
+
+        }
+        getdata(monthly_data2)
+        localStorage.setItem("Data",JSON.stringify(monthly_data2))
+     }
+     else{
+        function getdata(data)
+        {
+            let cont=document.getElementById("card1");
+            cont.innerHTML=null
+            data.forEach(element => {
+                console.log(element)
+                let h4=document.createElement("h4")
+                h4.innerText=element.category;
+
+                let p=document.createElement("p")
+                p.innerText=`₹${element.price}`
+
+                let h5=document.createElement("h5")
+                h5.innerText="Per Month";
+
+                let h6=document.createElement("h3")
+                h6.innerText=element.Description;
+
+
+                let div1=document.createElement("div")
+                div1.innerText="START WITH STANDERD"
+                div1.setAttribute("id","set")
+
+                let div=document.createElement("div");
+                div.setAttribute("class","standerd")
+
+
+                let p1=document.createElement("h6")
+                p1.innerText="or start a ";
+                p1.setAttribute("id","p1")
+
+                let span=document.createElement("span")
+                span.innerText="FREE trial";
+
+
+                p1.append(span)
+                div.append(h4,p,h5,h6,div1,p1)
+                cont.append(div)
+            })
+
+        }
+        getdata(monthly_data1)
+        localStorage.setItem("Data",JSON.stringify(monthly_data1))
+     }
+    
+}
+        getdata(monthly_data1)
+        localStorage.setItem("Data",JSON.stringify(monthly_data1))
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</script>
+
