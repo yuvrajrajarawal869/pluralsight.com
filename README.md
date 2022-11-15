@@ -11,5 +11,5 @@ Grout members
 <h3 align="left">Demo Link</h3>  https://pluralsightweb.netlify.app/
 
 <h3 align="left">Image</h3>
-<a href="" target="blank"><img src="https://github.com/yuvrajrajarawal869/pluralsight.com/blob/master/Screenshot%20(108).png?raw=true"/></a>
+<img src="https://github.com/yuvrajrajarawal869/pluralsight.com/blob/master/Screenshot%20(108).png?raw=true"/>
 
