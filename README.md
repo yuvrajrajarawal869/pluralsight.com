@@ -4,12 +4,12 @@ this is an eCommerce Web site, that we have cloned with my team members and I wa
 
 Grout members
 1) Yuvraj Rajarawal
-2) Vaibhav joshi
+2) Vaibhav kavre
 3) Himanshu Rajput
 4) chandrabhan yadav
 
-<h3 align="left">Demo Link</h3>  https://gearbestapp.netlify.app/l
+<h3 align="left">Demo Link</h3>  https://pluralsightweb.netlify.app/
 
 <h3 align="left">Image</h3>
-<a href="" target="blank"><img src="https://static1.s123-cdn-static-a.com/uploads/6718581/400_631a1639cc498.png"/></a>
+<a href="" target="blank"><img src="https://static1.s123-cdn-static-a.com/uploads/6718581/400_631a1940bb4ab.png"/></a>
 
