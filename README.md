@@ -6,7 +6,7 @@ Grout members
 1) Yuvraj Rajarawal
 2) Vaibhav kavre
 3) supriyo samanta
-4) chandrabhan yadav
+4) ashishpatiyal
 
 <h3 align="left">Demo Link</h3>  https://pluralsightweb.netlify.app/
 
