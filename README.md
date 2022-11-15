@@ -8,7 +8,7 @@ Grout members
 3) Himanshu Rajput
 4) chandrabhan yadav
 
-<h3 align="left">Connect with me <a href="https://gearbestapp.netlify.app/l" target="blank"></a></h3>
+<h3 align="left">Demo Link <a href="https://gearbestapp.netlify.app/l" target="blank"></a></h3>
 
 <h3 align="left">Image</h3>
 <a href="" target="blank"><img src="https://static1.s123-cdn-static-a.com/uploads/6718581/400_631a1639cc498.png"/></a>
