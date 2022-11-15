@@ -5,7 +5,7 @@ this is an eCommerce Web site, that we have cloned with my team members and I wa
 Grout members
 1) Yuvraj Rajarawal
 2) Vaibhav kavre
-3) Himanshu Rajput
+3) supriyo samanta
 4) chandrabhan yadav
 
 <h3 align="left">Demo Link</h3>  https://pluralsightweb.netlify.app/
